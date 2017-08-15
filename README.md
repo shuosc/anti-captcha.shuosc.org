@@ -1,5 +1,5 @@
 基本上也是校内的人用吧我就不用英文了233333<br>
-网站根是anti-captcha.shuosc.org，只接https，以captcha为key post上来验证码就行，大于2M不收，只收png、jpg、jpeg格式。<br>
+网站根是anti-captcha.shuosc.org，只接https，以captcha为key post上来验证码就行，大于2M不收，只收jpg格式。<br>
 教务处和选课是一套，做在/jwc下面；成就系统和学工办是一套，做在/xgb下面；物理实验是一套，做在/phylab下面<br>
 返回的json无非就是成功和失败，如下<br>
 {"result": "1045", "succeed": 1}<br>

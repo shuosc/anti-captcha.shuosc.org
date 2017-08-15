@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 app.config['MAX_CONTENT_LENGTH'] = 2 * 1024 * 1024 # max file 2mb
 
-ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg'])
+ALLOWED_EXTENSIONS = set(['jpg'])
 
 def allowed_file(filename):
     return '.' in filename and \
