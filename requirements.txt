@@ -1,0 +1,16 @@
+click==6.7
+Flask==0.12.2
+h5py==2.7.0
+itsdangerous==0.24
+Jinja2==2.9.6
+Keras==1.1.0
+MarkupSafe==1.0
+numpy==1.13.1
+olefile==0.44
+Pillow==4.2.1
+protobuf==3.0.0b2
+PyYAML==3.12
+scipy==0.19.1
+six==1.10.0
+uWSGI==2.0.15
+Werkzeug==0.12.2
