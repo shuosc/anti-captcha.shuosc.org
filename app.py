@@ -19,10 +19,6 @@ def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1] in ALLOWED_EXTENSIONS
 
-@app.route('/.well-known/pki-validation/fileauth.txt', methods=['GET'])
-def download():
-    return send_from_directory('.', "fileauth.txt", as_attachment=True)
-
 @app.route('/jwc', methods=['POST'])
 def jwc():
     response = {'succeed': 0}
