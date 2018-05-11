@@ -15,7 +15,7 @@
 
 基本上也是校内的人用吧我就不用英文了233333
 
-服务入口是  http://shuhelper.cn:8001。
+服务入口是  http://shuhelper.cn:8001 。
 
 以`captcha`作为 key，用`POST`方法上传验证码图片数据就行，要求不大于 2M，且仅限 `jpg` 格式。
 
